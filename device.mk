@@ -154,7 +154,7 @@ PRODUCT_COPY_FILES += \
 
 # Biometrics
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.whyred
+    android.hardware.biometrics.fingerprint@2.2-service.whyred
 
 PRODUCT_PACKAGES += \
     org.ifaa.android.manager
