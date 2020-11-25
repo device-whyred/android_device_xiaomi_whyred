@@ -88,9 +88,9 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|d406b0d2abdda9798884a
 vendor/lib64/libbtnv.so|b72a66ef2d0f7ce315e19f162db60db8891f3e61
 vendor/lib64/libbt-hidlclient.so|4e528c3c6bef6b7c6900d0343cbed115709ef742
 
-# Bluetooth (aptX) - from crosshatch-user 10 QP1A.190711.020 5800535 release-keys
-product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
-product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
+# Bluetooth (aptX) - from crosshatch-user 11 RP1A.201105.002 6869500 release-keys
+system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
 # Bluetooth (Configstore) - from tucana 20.12.2
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|34f9de6084224052b728837358340e9fff1d0e46
