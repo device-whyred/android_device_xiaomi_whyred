@@ -887,6 +887,13 @@ vendor/lib64/libSecureUILib.so|3a059d1fe3395eaefeb7817ad3af46987b6f4794
 vendor/lib64/libssd.so|a64337d8044607b81adcf7e8c5760cf8cdcf82b4
 vendor/lib64/libStDrvInt.so|a7bd8140e2cd5aa70a7d929e01233e5b71844cd8
 
+# DSP - from tucana 20.12.2
+vendor/bin/dspservice|225fc63f14387ea978341f9418b34900c1b10ce2
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|8119845f8e6a24e53bdf286e19f34e9906d64e78
+vendor/lib/vendor.qti.hardware.dsp@1.0.so|94f60e5fddc9cc31306ea87420b4db9af44911b0
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so|b4fb4608e14ef4a74ceeec1ed6851cb139be57e9
+
 # Fingerprint firmware
 etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00
 etc/firmware/goodixfp.b01:vendor/firmware/goodixfp.b01
