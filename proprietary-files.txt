@@ -837,7 +837,6 @@ vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|36df0bc45a61
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede0250585a44b01d351bbc301d7a13cc3d783d
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|5471a55f3b0aefae1383e3121d9f588fa6fe2449
 -vendor/lib64/libplatformconfig.so|e61489bab3ed5c95f0cd0122b8377c9a68fadfe2
--vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so|eaa1124a9fc04b1c0c379f9286749da33df706fb
 
 # Consumerir
 vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sdm660.so
