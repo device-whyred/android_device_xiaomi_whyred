@@ -1012,14 +1012,16 @@ vendor/lib64/libkeymasterutils.so|679491d7b415f45469990380e4fd61e4bfbc445e
 vendor/lib/hw/keystore.sdm660.so
 vendor/lib64/hw/keystore.sdm660.so
 
-# Listen - from jasmine
-vendor/lib/hw/sound_trigger.primary.sdm660.so|8bae35ddf095f33543413bec940f538a7fada63b
-vendor/lib/libadpcmdec.so|6e9be864a1380e099a2d68237e13a724f3143314
-vendor/lib/libgcs-calwrapper.so|a7ee01ad02f69c182b9f28cb1c10b105ec8d607f
-vendor/lib/libgcs-ipc.so|d2a33d059bc02c6f635c350f0c3d524a0216557d
-vendor/lib/libgcs-osal.so|dfae7d1bb15b7bd19fef7427f0a6f6df28d5d30a
-vendor/lib/libgcs.so|91e2a7e52bbc076eb3761586bcaf623160612a79
-vendor/lib/libsmwrapper.so|d28c31e4dd25de2eb7d1face701b0f6acf1b1d0e
+# Listen - from tucana 20.12.2
+vendor/lib/hw/sound_trigger.primary.sm6150.so:vendor/lib/hw/sound_trigger.primary.sdm660.so|e3ded77b745643001ad8debba9459068e08fc41c
+vendor/lib/libadpcmdec.so|5232c32b93a8653612cd8fcdde161a9d7fe39c7f
+vendor/lib/libgcs-calwrapper.so|bf7c4eacfe86f93f63032409a096fd687f8d3d72
+vendor/lib/libgcs-ipc.so|aa78dc9e7cea1dea4ce2aeaa7b0ff357d123ff74
+vendor/lib/libgcs-osal.so|c8055991809da427b5fdf0b18b67cefc7b17a399
+vendor/lib/libgcs.so|30fa5ab9ea3f3f94310fdb19d26ca3068b317469
+vendor/lib/liblistensoundmodel2.so|00dd3b7348229fb273216bf720d1ad512d358343
+vendor/lib/librice.so|30f281ca3307bee5072c7b1eeea743b466af95ac
+vendor/lib/libsmwrapper.so|4c9ba6f36b87aa32464f79b0e2168c59f46172cb
 
 # Media - from jasmine
 lib/libFileMux.so|79661e6dffc90234ad446641264fd0fa1a3fe6ab
