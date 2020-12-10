@@ -288,16 +288,12 @@ PRODUCT_PACKAGES += \
 
 # HIDL
 PRODUCT_PACKAGES += \
-    android.hidl.base@1.0
+    libhwbinder \
+    libhwbinder.vendor
 
 # HW crypto
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
-
-# HIDL
-PRODUCT_PACKAGES += \
-    libhwbinder \
-    libhwbinder.vendor
 
 # IDC
 PRODUCT_COPY_FILES += \
