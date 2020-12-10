@@ -55,16 +55,13 @@ vendor/lib/libdrc.so|e27974e53efe0456cba96f6910ad977c6351d0b7
 vendor/lib/libqtigef.so|5274b67a13e3211cc581385189560fd1e2572d44
 vendor/lib/libsurround_3mic_proc.so|1d425b4b0d89f68e0f0112e8f2f73b1cd5b6dea2
 
-# Audio (A2dp) - from jasmine
-vendor/lib/btaudio_offload_if.so|d9a9795e173dffd4b5ee000acac66c1ad6f1648c
-vendor/lib/hw/audio.bluetooth_qti.default.so|c64b101dd33042d2f702ab5059231ca9684fc1d0
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|947afef6bf7a05a9a2b45022edfed06bd7c00e64
-vendor/lib/libbluetooth_audio_session_qti.so|53fd0369c50fbaef12c22e25e3073a6fc9f05bb7
-
 # Audio FX modules - from tucana 20.12.2
 system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
 system_ext/framework/audiosphere.jar|db76dab5f44013265df54ae41073184d9a0423e9
 vendor/lib/soundfx/libasphere.so|44cd20e13920888b29d3b2e4bb0b2559a746bf8f
+
+# ANT+ - from tucana 20.12.2
+vendor/lib64/hw/com.dsi.ant@1.0-impl.so|8b19b9cb7cdf2c7635608c270bec1c6cb9281049
 
 # Audio Power Amplifier
 vendor/firmware/dbmd4_va_fw.bin
@@ -83,19 +80,31 @@ vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# Bluetooth - from jasmine
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|57a0a575a2b1b96176fda1bcb84ea8371c4070d1
+# Bluetooth - from tucana 20.12.2
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|df208af5347e10667c48a5659e14fb2dbe691711
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|7c0d54f84dd3d2da1806affa7c16dea4bba4d16a
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|71ad8980142e7d8d754607accc0cffd8f5e68dbd
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|f9dcf9a19a0b601969bcd606bedb8a8419de9d81
-vendor/lib64/libbtnv.so|08fc5c0a38eca63ebe6f0cd854f6525537141d44
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|9346946b110086a6b473c8226e072e9a0cdbb87e
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|073cace3aa8d0ffa025d9df67c45f8a907109339
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|d406b0d2abdda9798884aa48c1ed06b86d5c27ec
+vendor/lib64/libbtnv.so|b72a66ef2d0f7ce315e19f162db60db8891f3e61
+vendor/lib64/libbt-hidlclient.so|4e528c3c6bef6b7c6900d0343cbed115709ef742
 
-# Bluetooth (aptX) - from jasmine
-vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|8305c614ebf13f84f15989631b8fdfdb9828d9be
-vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|eb0e912d25b06f977d5a89345c72d142b7ffb8ae
+# Bluetooth (A2DP) - from tucana 20.12.2
+vendor/lib/btaudio_offload_if.so|d02bff9f3c73f6d42773551fe8400851c2be2795
+vendor/lib/hw/audio.bluetooth_qti.default.so|9b3c42b0f6e5d11ea7f173cb6811b8535ec1c420
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|a124e0d1d45f00b7825b4dd58c308681a481eee9
+vendor/lib/libbluetooth_audio_session_qti.so|88810aa7638f9318775e7e1d45610170f5fb22a9
+
+# Bluetooth (aptX) - from tucana 20.12.2
+vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|59cbdf5d84ba2ff64014941f3ad9e6c2c35e2c06
+vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so|136ee309e7c9892d55b3e87e45cd0ab39120658e
+vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|e25f1087edc95d2ff76c1e37787ca37aae2cf175
+
+# Bluetooth (Configstore) - from tucana 20.12.2
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|34f9de6084224052b728837358340e9fff1d0e46
+
+# Bluetooth (SAR) - from tucana 20.12.2
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|837979d5ede013c5f421da19e9e0815ee8b61542
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|302eca87415711253e0d47c3c12b031d4fa36714
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|d239076c76d1e33b4a7160a3049b0e35e4886ae0
 
 # Camera - from V10.3.5.0.PEICNXM
 vendor/lib/hw/camera.sdm660.so|fcc07ed11d3603e981c71f1cd38bb4ec963e835d
