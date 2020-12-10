@@ -1397,9 +1397,6 @@ vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|c9070f25aa132707705523ddaab522b88c22923f
 
 # Thermal
-vendor/etc/thermal-engine.conf
-vendor/etc/thermal-engine-map.conf
-vendor/etc/thermal-engine-normal.conf
 vendor/bin/thermal-engine
 vendor/lib/libthermalfeature.so
 vendor/lib64/libthermalfeature.so
