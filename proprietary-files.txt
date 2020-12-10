@@ -1406,13 +1406,13 @@ vendor/bin/time_daemon|0def9165831d91241cd011abafc0a106f69bd06e
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|c9070f25aa132707705523ddaab522b88c22923f
 
-# Thermal
-vendor/bin/thermal-engine
-vendor/lib/libthermalfeature.so
-vendor/lib64/libthermalfeature.so
-vendor/lib64/libthermalioctl.so
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
+# Thermal - from curtana V12.0.1.0.RJWINXM
+vendor/bin/thermal-engine|1b275fff739203b566a189fb4247383dd6e76e15
+vendor/etc/init/init_thermal-engine.rc|f0d14aa4734b2e8afd61a4eed73238187b268f48
+-vendor/lib/libthermalclient.so|31533667b7f8137670189a14c68ccb51c7ca6dab
+vendor/lib/libthermalfeature.so|57b7cb8b92ee3d0002f8884b1379653300ed5d47
+-vendor/lib64/libthermalclient.so|41274c82e1a472d12b2ebcb4156f7f77b109efa8
+vendor/lib64/libthermalfeature.so|039c92ea5b7532568c63035a51426d9801eaa097
 
 # Trusted User Interface - from tucana 20.12.2
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|b72fc6b3ef9c96dc41cf5acf198b464a3cd69a1c
