@@ -1421,6 +1421,7 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|b53b22c0be01b39eead6490f706e3db
 
 # Wifi - from tucana 20.12.2
 vendor/bin/cnss-daemon|af786c60b4f06e7756f0361df00b9cc086303da8
+vendor/bin/nv_mac|e6b724960185e3eb752a85cf59ad4453c08298e2
 
 # WiFi Display - from jasmine
 bin/wfdservice|d9cccfd6ca14a1d83117533296d6cac2c139c310

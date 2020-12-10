@@ -70,6 +70,8 @@ on post-fs-data
     chown system system /data/vendor_de/0/fpdata/user.db  
     rm /data/vendor/fpc/user.db
 
+    mkdir /data/vendor/mac_addr 0770 system wifi
+
 on early-boot
     chown system system /mnt/vendor/persist/sensors
     chown system system /mnt/vendor/persist/sensors/sns.reg
@@ -503,6 +505,12 @@ service vendor.hvdcp_opti /system/vendor/bin/hvdcp_opti
      class main
      user root
      group system wakelock
+
+service nv_mac /vendor/bin/nv_mac
+    class late_start
+    user system
+    group system inet net_admin wifi net_raw
+    oneshot
 
 # Workaround for camera HAL can not read sys property
 on property:sys.camera.face.unlock=*
