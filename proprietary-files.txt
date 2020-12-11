@@ -1173,9 +1173,6 @@ vendor/lib64/vendor.qti.hardware.perf@2.0.so|3aff8833686924a414212b2a4db33116893
 vendor/lib64/vendor.qti.hardware.perf@2.1.so|87a9b4afb79214ded443cab768d02fb4e84beb77
 vendor/lib64/vendor.qti.hardware.perf@2.2.so|0efbeca0a490a4f103a6baabb7d1cb50039d675f
 
-# Perf - from jasmine
-vendor/bin/energy-awareness|6515fada09432a437d2ed591ce141bb70fb10a9e
-
 # Perf configs - from LA.UM.8.2.r1-06700-sdm660.0
 vendor/etc/perf/commonresourceconfigs.xml|827c63cb52552af0c19a4735430f98334e1760bf
 vendor/etc/perf/perfboostsconfig.xml|402a87eaefe640d72a74abfcddcf924d19810704
